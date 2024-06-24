@@ -1,0 +1,31 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+div#otros_cuadrados{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nueva_caja{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+}

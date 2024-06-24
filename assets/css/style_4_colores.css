@@ -1,0 +1,17 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cuadrados{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+}
